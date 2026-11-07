@@ -43,8 +43,8 @@ Faithfulness & Coverage Metrics (NLI + lexical overlap)
 
 ```
 AskPDF-Document-chatbot/
-├── app.py              # Main Streamlit application
-├── creds.py            # API keys 
+├── capstone.py         # Main Streamlit application
+├── creds.py            # API keys (create this yourself, git-ignored)
 ├── requirements.txt
 └── README.md
 ```
@@ -56,7 +56,7 @@ AskPDF-Document-chatbot/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/AskPDF-Document-chatbot.git
+git clone https://github.com/kaviya-ns/AskPDF-Document-chatbot.git
 cd AskPDF-Document-chatbot
 ```
 
@@ -140,7 +140,7 @@ pipeline("text-classification", model="cross-encoder/nli-deberta-v3-small")
 ## Running the App
 
 ```bash
-streamlit run app.py
+streamlit run capstone.py
 ```
 
 Then open [http://localhost:8501](http://localhost:8501) in your browser.
